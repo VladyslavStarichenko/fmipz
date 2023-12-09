@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+
+  &__content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+}

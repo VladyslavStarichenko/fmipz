@@ -1,0 +1,13 @@
+@import '../../../../Sass/colors.scss';
+
+.container {
+  color: $black;
+  font: {
+    family: e-Ukraine;
+    size: 22px;
+    style: normal;
+    weight: 400;
+  };
+  line-height: normal;
+  margin: 0;
+}

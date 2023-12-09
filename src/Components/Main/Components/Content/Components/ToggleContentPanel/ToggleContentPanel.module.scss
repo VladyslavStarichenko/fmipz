@@ -1,0 +1,11 @@
+@import '../../../../../../Sass/colors.scss';
+
+.container {
+  align-items: center;
+  border-bottom: 1px solid $gray_06;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 83px;
+  justify-content: flex-start;
+  width: 100%;
+}

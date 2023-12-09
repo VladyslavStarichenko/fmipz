@@ -1,0 +1,31 @@
+@import '../../../../../../Sass/colors.scss';
+
+.container {
+  align-items: flex-end;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 8px;
+  justify-content: flex-start;
+
+  &__title {
+    color: $gray_03;
+    font: {
+      family: e-Ukraine;
+      size: 16px;
+      style: normal;
+      weight: 400;
+    };
+    line-height: normal;
+  }
+
+  &__value {
+    color: $black;
+    font: {
+      family: e-Ukraine;
+      size: 18px;
+      style: normal;
+      weight: 400;
+    };
+    line-height: normal;
+  }
+}

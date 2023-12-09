@@ -1,0 +1,16 @@
+@import '../../../../Sass/colors.scss';
+
+.container {
+  color: $black;
+  font: {
+    family: e-Ukraine;
+    size: 30px;
+    style: normal;
+    weight: 900;
+  };
+  line-height: normal;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

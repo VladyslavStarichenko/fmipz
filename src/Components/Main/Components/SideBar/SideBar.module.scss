@@ -1,0 +1,14 @@
+@import '../../../../Sass/colors.scss';
+
+.container {
+  border: {
+    bottom: 1px solid $gray_06;
+    right: 1px solid $gray_06;
+  };
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  max-width: 500px;
+  min-width: 240px;
+  width: 100%;
+}

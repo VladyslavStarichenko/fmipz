@@ -1,0 +1,20 @@
+@import '../../../../Sass/colors.scss';
+@import '../../../../Sass/transitions.scss';
+
+.container {
+  border: 1px solid $gray_06;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-family: e-Ukraine;
+  height: 121px;
+  padding: 8px;
+  resize: none;
+  width: 100%;
+
+  @include transition-snappy(all);
+
+  &:focus {
+    outline: 2px solid $gray_03;
+    outline-offset: 1px;
+  }
+}

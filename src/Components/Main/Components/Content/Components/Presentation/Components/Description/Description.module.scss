@@ -1,0 +1,32 @@
+@import '../../../../../../../../Sass/colors.scss';
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 16px;
+  justify-content: flex-start;
+
+  &__title {
+    color: $gray_01;
+    font: {
+      family: e-Ukraine;
+      size: 28px;
+      style: normal;
+      weight: 500;
+    };
+    line-height: normal;
+    margin: 0;
+  }
+
+  &__type {
+    color: $gray_03;
+    font: {
+      family: e-Ukraine;
+      size: 16px;
+      style: normal;
+      weight: 300;
+    };
+    line-height: normal;
+    margin: 0;
+  }
+}

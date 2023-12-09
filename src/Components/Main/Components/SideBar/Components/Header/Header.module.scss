@@ -1,0 +1,22 @@
+@import '../../../../../../Sass/colors.scss';
+
+.container {
+  align-items: flex-start;
+  border-bottom: 1px solid $gray_06;
+  box-sizing: border-box;
+  color: $gray_01;
+  display: flex;
+  flex-flow: column nowrap;
+  font: {
+    family: e-Ukraine;
+    size: 20px;
+    style: normal;
+    weight: 500;
+  };
+  height: 84px;
+  justify-content: center;
+  line-height: normal;
+  padding: 8px;
+  padding-left: 32px;
+  width: 100%;
+}

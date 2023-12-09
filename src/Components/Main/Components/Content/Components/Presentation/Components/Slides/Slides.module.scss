@@ -1,0 +1,67 @@
+@import '../../../../../../../../Sass/colors.scss';
+@import '../../../../../../../../Sass/transitions.scss';
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 16px;
+  justify-content: flex-start;
+  max-width: 852px;
+  min-width: 320px;
+  width: 100%;
+
+  &__image-wrapper {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    width: 100%;
+    user-select: none;
+
+    @include transition-snappy(all);
+
+    &:hover {
+      @include transition-snappy(all);
+
+      & > div:not(:first-child) {
+        display: flex;
+      }
+    }
+
+    &__image {
+      border-radius: 6px;
+      height: 100%;
+      width: 100%;
+    }
+
+    & > div:not(:first-child) {
+      display: none;
+    }
+  }
+
+  &__controls {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 12px;
+    justify-content: center;
+
+    &__control {
+      background-color: $black;
+      border: none;
+      border-radius: 50%;
+      height: 10px;
+      padding: 0;
+      opacity: 0.2;
+      width: 10px;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &--selected {
+        opacity: 1;
+      }
+    }
+  }
+}

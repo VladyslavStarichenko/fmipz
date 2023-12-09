@@ -1,0 +1,45 @@
+@import '../../../../../../Sass/colors.scss';
+@import '../../../../../../Sass/transitions.scss';
+
+.container {
+  align-items: flex-start;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px 24px 32px 32px;
+  width: 100%;
+
+  @include transition-snappy(all);
+
+  &:hover {
+    background-color: $gray_07;
+    cursor: pointer;
+  }
+
+  &--selected {
+    background-color: $gray_07;
+  }
+
+  &__type {
+    color: $gray_03;
+    font: {
+      family: e-Ukraine;
+      size: 14px;
+      style: normal;
+      weight: 300;
+    };
+    line-height: normal;
+  }
+
+  &__title {
+    color: $gray_01;
+    font: {
+      family: e-Ukraine;
+      size: 20px;
+      style: normal;
+      weight: 500;
+    };
+    line-height: normal;
+  }
+}

@@ -1,0 +1,98 @@
+@import '../../../Sass/colors.scss';
+
+.body {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  gap: 24px;
+  padding: 0 32px 24px;
+
+  &__code-wrapper {
+    max-width: 65%;
+    min-width: 560px;
+    width: 100%;
+  }
+
+  &__code-details {
+    display: flex;
+    flex: 1;
+    flex-flow: column nowrap;
+    gap: 24px;
+    justify-content: flex-start;
+
+    &__editor-settings {
+      display: flex;
+      flex-flow: column nowrap;
+      gap: 24px;
+      justify-content: flex-start;
+
+      &__options {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 24px;
+        justify-content: space-between;
+
+        & > * {
+          flex: 1;
+        }
+      }
+    }
+
+    &__controls {
+      display: flex;
+      flex-flow: column nowrap;
+      gap: 16px;
+      justify-content: flex-start;
+
+      &__actions {
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 16px;
+        justify-content: flex-start;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1055px) {
+  .body {
+    &__code-details {
+      &__editor-settings {
+        &__options {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 948px) {
+  .body {
+    flex-direction: column;
+
+    &__code-wrapper {
+      max-width: 100%;
+      min-width: unset;
+    }
+
+    &__code-details {
+      &__editor-settings {
+        &__options {
+          flex-direction: row;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .body {
+    &__code-details {
+      &__editor-settings {
+        &__options {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}

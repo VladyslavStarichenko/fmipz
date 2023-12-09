@@ -1,0 +1,44 @@
+@import '../../../../Sass/colors.scss';
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 16px;
+  justify-content: flex-start;
+
+  &__empty {
+    color: $gray_03;
+    font: {
+      family: e-Ukraine;
+      size: 14px;
+      style: normal;
+      weight: 300;
+    };
+    line-height: normal;
+    margin: 0;
+  }
+
+  &__result {
+    color: $black;
+    font: {
+      family: e-Ukraine;
+      size: 14px;
+      style: normal;
+      weight: 400;
+    };
+    line-height: normal;
+    margin: 0;
+    max-width: 408px;
+    white-space: wrap;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 948px) {
+  .container {
+    &__result {
+      max-width: unset;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import '../../../../../../Sass/colors.scss';
+
+.container {
+  color: $gray_03;
+  font: {
+    family: e-Ukraine;
+    size: 16px;
+    style: normal;
+    weight: 300;
+  };
+  line-height: normal;
+  margin: 0;
+  padding: 0 20px;
+  text-align: center;
+}
