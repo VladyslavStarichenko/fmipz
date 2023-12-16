@@ -1,4 +1,4 @@
-# Навчальні матеріали з предмету "Формальних методів інженерії програмного забезпечення"
+# Навчальні матеріали з предмету "Формальні методи інженерії програмного забезпечення"
 
 Ласкаво просимо до репозиторію навчальних матеріалів з предмету "Формальні методи інженерії програмного забезпечення". Ця система була створена для надання теоретичного матеріалу та практичних прикладів коду для поліпшення вашого розуміння предмету.
 
@@ -10,11 +10,11 @@
 
 ## Презентації
 
-При входженні в розділ "Презентації" ви знайдете вичерпний список завдань. Кожне завдання має презентацію з слайдами, які можна переглядати, торкаючись лівого та правого боків екрану, щоб переходити до попереднього або наступного слайду.
+Після переходу на сторінку "Презентації" ви знайдете список різноманітних тем з відповідними презентаціями. Кожна тема має власну презентацію зi слайдами, які можна переглядати, торкаючись лівого та правого боків екрану, щоб переходити до попереднього або наступного слайду.
 
 ### Приклади коду
 
-Презентації доповнені прикладами коду, створеними для ілюстрації виконання практичних завдань. Хоча не кожне завдання включає демонстрацію коду, у користувача є можливість додати власний код. Важливо зауважити, що кожне завдання має свою власну мову програмування за замовчуванням, яка вказана навпроти кнопки виконання коду.
+Презентації доповнені прикладами коду, створеними для ілюстрації виконання практичних завдань. Хоча не кожне завдання включає демонстрацію коду, у користувача є можливість додати власний код. Важливо зауважити, що кожне завдання має свою власну мову програмування за замовчуванням, яка вказана над кнопкою виконання коду.
 
 ## Компілятор коду
 
@@ -22,7 +22,7 @@
 
 ### Додаткова інформація
 
-Не соромтеся досліджувати різноманітні матеріали, які надають теоретичні знання разом з практичним досвідом кодування. Ця платформа має на меті полегшити повне розуміння Формальних методів інженерії програмного забезпечення, обслуговуючи як початківців, так і досвідчених учнів.
+Не соромтеся досліджувати різноманітні матеріали, які надають теоретичні знання разом з практичним досвідом кодування. Ця платформа має на меті полегшити повне розуміння Формальних методів інженерії програмного забезпечення, обслуговуючи як початківців, так і досвідчених студентів.
 
 Приємного навчання!
 
@@ -44,7 +44,7 @@ Upon entering the "Presentation" section, you will find a comprehensive list of 
 
 ### Code Examples
 
-The presentations are complemented by code examples designed to illustrate the implementation of practical tasks. While not every assignment includes code demonstrations, users have the option to add their own code. It's essential to note that each assignment has its default programming language, which is visible in front of the code execution button.
+The presentations are complemented by code examples designed to illustrate the implementation of practical tasks. While not every assignment includes code demonstrations, users can add their code. It's essential to note that each assignment has its default programming language, which is visible in front of the code execution button.
 
 ## Code Compiler
 
@@ -52,7 +52,7 @@ For situations where the use of a specific programming language is necessary, us
 
 ### Additional Information
 
-Feel free to explore the diverse range of materials provided, combining theoretical insights with hands-on coding experience. This platform aims to facilitate a comprehensive understanding of Formal Methods of Software Engineering, catering to both beginners and advanced learners.
+You can explore the diverse range of materials provided, combining theoretical insights with hands-on coding experience. This platform aims to facilitate a comprehensive understanding of Formal Methods of Software Engineering, catering to both beginners and advanced learners.
 
 Happy studying!
 
