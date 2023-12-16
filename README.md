@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Навчальні матеріали з предмету "Формальних методів інженерії програмного забезпечення"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ласкаво просимо до репозиторію навчальних матеріалів з предмету "Формальні методи інженерії програмного забезпечення". Ця система була створена для надання теоретичного матеріалу та практичних прикладів коду для поліпшення вашого розуміння предмету.
 
-## Available Scripts
+## Початок роботи
 
-In the project directory, you can run:
+Точкою входу є домашня сторінка, де у вас є два варіанти переходу до розділу "Презентації":
+- Натискання на "Почати вивчати".
+- Перехід до розділу "Презентації" у верхньому меню.
 
-### `yarn start`
+## Презентації
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+При входженні в розділ "Презентації" ви знайдете вичерпний список завдань. Кожне завдання має презентацію з слайдами, які можна переглядати, торкаючись лівого та правого боків екрану, щоб переходити до попереднього або наступного слайду.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Приклади коду
 
-### `yarn test`
+Презентації доповнені прикладами коду, створеними для ілюстрації виконання практичних завдань. Хоча не кожне завдання включає демонстрацію коду, у користувача є можливість додати власний код. Важливо зауважити, що кожне завдання має свою власну мову програмування за замовчуванням, яка вказана навпроти кнопки виконання коду.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Компілятор коду
 
-### `yarn build`
+У випадках, коли потрібно використовувати конкретну мову програмування, користувачі можуть перейти до компілятора коду. Тут вони можуть вибрати з 40 мов програмування для демонстрації виконання коду, забезпечуючи індивідуальний підхід до вивчення.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Додаткова інформація
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Не соромтеся досліджувати різноманітні матеріали, які надають теоретичні знання разом з практичним досвідом кодування. Ця платформа має на меті полегшити повне розуміння Формальних методів інженерії програмного забезпечення, обслуговуючи як початківців, так і досвідчених учнів.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Приємного навчання!
 
-### `yarn eject`
+[Посилання на проект](https://vladyslavstarichenko.github.io/fmipz/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Study Materials for "Formal Methods of Software Engineering"
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Welcome to the study materials repository for the subject "Formal Methods of Software Engineering." This system has been designed to provide both theoretical content and practical code examples to enhance your understanding of the subject matter.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The entry point is the home page, where you have two options to navigate to the "Presentation" section:
+- Click on "Start Studying."
+- Navigate to the "Presentations" section in the header.
 
-## Learn More
+## Presentations
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Upon entering the "Presentation" section, you will find a comprehensive list of assignments. Each assignment includes a presentation with slides that can be navigated by tapping on the left and right sides of the screen to move to the previous or next slide.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Code Examples
 
-### Code Splitting
+The presentations are complemented by code examples designed to illustrate the implementation of practical tasks. While not every assignment includes code demonstrations, users have the option to add their own code. It's essential to note that each assignment has its default programming language, which is visible in front of the code execution button.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Code Compiler
 
-### Analyzing the Bundle Size
+For situations where the use of a specific programming language is necessary, users can navigate to the code compiler. Here, they can choose from a selection of 40 programming languages to demonstrate code execution, ensuring a tailored experience to meet individual needs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Additional Information
 
-### Making a Progressive Web App
+Feel free to explore the diverse range of materials provided, combining theoretical insights with hands-on coding experience. This platform aims to facilitate a comprehensive understanding of Formal Methods of Software Engineering, catering to both beginners and advanced learners.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Happy studying!
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Link to the project](https://vladyslavstarichenko.github.io/fmipz/)

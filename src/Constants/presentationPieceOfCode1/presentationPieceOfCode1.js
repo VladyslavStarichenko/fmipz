@@ -1,4 +1,10 @@
-export const PRESENTATION_PIECE_OF_CODE_1 = `public class Person {
+export const PRESENTATION_PIECE_OF_CODE_1 = `public class Main {
+  public static void main(String [] argv) {
+    System.out.println(new Person(null));
+    System.out.println(new Person(""));
+  }
+
+  static class Person {
   private /*@ spec_public non_null @*/ String name;
   private /*@ spec_public @*/ int weight;
 
@@ -44,12 +50,6 @@ export const PRESENTATION_PIECE_OF_CODE_1 = `public class Person {
       name = n; weight = 0;
     }
 }
-
-public class PersonMain {
-  public static void main(String [] argv) {
-    System.out.println(new Person(null));
-    System.out.println(new Person(""));
-  }
 }
 `;
 
