@@ -2,19 +2,24 @@
 import { Routes, Route } from 'react-router-dom';
 
 // Components
-import LiveCode from 'Components/LiveCode';
-import Main from 'Components/Main';
+import LiveCode from 'Screens/LiveCode';
+import Main from 'Screens/Main';
+import Presentations from 'Screens/Presentations';
 
 export function RouterWrapperView() {
   return (
     <Routes>
       <Route
         element={<Main />}
+        path="/"
+      />
+      <Route
+        element={<Presentations />}
         exact
         path="/presentation/:presentationId"
       />
       <Route
-        element={<Main />}
+        element={<Presentations />}
         exact
         path="/presentation/:presentationId/code"
       />

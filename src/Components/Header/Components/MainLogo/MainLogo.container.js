@@ -9,7 +9,7 @@ export function MainLogoContainer() {
   const navigate = useNavigate();
 
   const onClickHandler = useCallback(() => {
-    navigate('/presentation/0');
+    navigate('/');
   }, [navigate]);
 
   return (

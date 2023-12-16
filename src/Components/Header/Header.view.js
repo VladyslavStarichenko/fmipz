@@ -1,32 +1,53 @@
 // Modules
-import { memo } from 'react';
+import { NavLink } from 'react-router-dom';
 
 // Components
 import CodeEditorButton from './Components/CodeEditorButton';
+import HamburgerMenu from './Components/HamburgerMenu';
 import MainLogo from './Components/MainLogo';
-import PresentationsButton from './Components/PresentationsButton';
 
-// Hooks
-import useIsLiveCodePage from 'Hooks/useIsLiveCodePage';
-import useRedirectToFirstPresentation from 'Hooks/useRedirectToFirstPresentation';
+// Constants
+import COLORS from 'Constants/colors';
 
 // Styles
 import s from './Header.module.scss';
 
 export function HeaderView() {
-  const isLiveCodePage = useIsLiveCodePage();
-
-  useRedirectToFirstPresentation();
-
   return (
     <div className={s['container']}>
-      <MainLogo />
-      {isLiveCodePage
-        ? <PresentationsButton />
-        : <CodeEditorButton />
-      }
+      <div className={s['container__navigation']}>
+        <MainLogo />
+        <div className={s['container__navigation__links']}>
+          <NavLink
+            style={({ isActive }) => {
+              return {
+                color: isActive
+                  ? COLORS.black._100
+                  : COLORS.gray._3,
+              };
+            }}
+            to="/"
+          >
+            Головна
+          </NavLink>
+          <NavLink
+            style={({ isActive }) => {
+              return {
+                color: isActive
+                  ? COLORS.black._100
+                  : COLORS.gray._3,
+              };
+            }}
+            to="/presentation/0"
+          >
+            Презентації
+          </NavLink>
+        </div>
+      </div>
+      <CodeEditorButton />
+      <HamburgerMenu />
     </div>
   );
 }
 
-export default memo(HeaderView);
+export default HeaderView;

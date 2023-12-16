@@ -1,3 +1,9 @@
+/**
+ * Checks if a given pathname corresponds to a code page in a presentation.
+ *
+ * @param {string} [pathname=''] - The pathname to be checked.
+ * @returns {boolean} Returns true if the pathname corresponds to a code page, otherwise false.
+ */
 export function isCodePage(pathname = '') {
   if (typeof pathname === 'string' && pathname) {
     // the first element is an empty string

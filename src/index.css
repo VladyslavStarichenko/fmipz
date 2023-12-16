@@ -1,3 +1,50 @@
+@font-face {
+  font-family: 'e-Ukraine-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('e-Ukraine-Bold'), url('./Fonts/e-Ukraine-Bold.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'e-Ukraine-Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('e-Ukraine-Light'), url('./Fonts/e-Ukraine-Light.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'e-Ukraine-Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: local('e-Ukraine-Medium'), url('./Fonts/e-Ukraine-Medium.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'e-Ukraine';
+  font-style: normal;
+  font-weight: 400;
+  src: local('e-Ukraine-Regular'), url('./Fonts/e-Ukraine-Regular.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'e-Ukraine-Thin';
+  font-style: normal;
+  font-weight: 100;
+  src: local('e-Ukraine-Thin'), url('./Fonts/e-Ukraine-Thin.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'e-Ukraine-UltraLight';
+  font-style: normal;
+  font-weight: 100;
+  src: local('e-Ukraine-UltraLight'), url('./Fonts/e-Ukraine-UltraLight.otf') format('truetype');
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   height: 100%;
   margin: 0;
@@ -8,6 +55,5 @@ body {
 #root {
   height: 100%;
   margin: 0 auto;
-  max-width: 1440px;
   width: 100%;
 }
