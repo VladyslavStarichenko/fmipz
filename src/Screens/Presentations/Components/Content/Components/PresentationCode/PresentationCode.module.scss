@@ -1,0 +1,31 @@
+@import '../../../../../../Sass/colors.scss';
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 24px;
+  justify-content: flex-start;
+  padding: 0 20px;
+
+  &__control {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 16px;
+    justify-content: flex-start;
+
+    &__language {
+      color: $gray_03;
+      font: {
+        family: e-Ukraine;
+        size: 14px;
+        style: normal;
+        weight: 300;
+      };
+      line-height: normal;
+    }
+  }
+
+  & > section:first-of-type {
+    max-width: 1060px;
+  }
+}

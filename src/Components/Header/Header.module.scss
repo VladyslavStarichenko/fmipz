@@ -11,4 +11,51 @@
   gap: 24px;
   justify-content: space-between;
   padding: 21px 32px;
+  position: relative;
+  z-index: 3;
+
+  &__navigation {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 56px;
+    justify-content: flex-start;
+
+    &__links {
+      align-items: center;
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 40px;
+      justify-content: space-between;
+
+      & > a {
+        color: $gray_01;
+        font: {
+          family: e-Ukraine-Light;
+          size: 16px;
+          style: normal;
+          weight: 300;
+        };
+        line-height: 20px;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 654px) {
+  .container {
+    &__navigation {
+      &__links {
+        display: none;
+      }
+
+      & + button {
+        display: none;
+      }
+    }
+  }
 }

@@ -1,0 +1,141 @@
+@import '../../Sass/colors.scss';
+
+.container {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  gap: 120px;
+  justify-content: flex-start;
+  padding: 80px 32px 0;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  z-index: 2;
+
+  &__main {
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 80px;
+    justify-content: flex-start;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+
+    &__description {
+      align-items: center;
+      display: flex;
+      flex-flow: column nowrap;
+      gap: 24px;
+      justify-content: flex-start;
+
+      &__title {
+        color: $gray_01;
+        font: {
+          family: e-Ukraine;
+          size: 100px;
+          style: normal;
+          weight: 500;
+        };
+        line-height: 120%;
+        margin: 0;
+        max-width: 714px;
+        text-align: center;
+        user-select: none;
+      }
+
+      &__text {
+        color: $gray_02;
+        font: {
+          family: 'e-Ukraine-Light';
+          size: 18px;
+          style: normal;
+          weight: 300;
+        };
+        line-height: 140%;
+        margin: 0;
+        max-width: 469px;
+        text-align: center;
+        user-select: none;
+      }
+    }
+  }
+
+  &__footer {
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+
+    &__title {
+      color: $gray_03;
+      font: {
+        family: 'e-Ukraine-Light';
+        size: 16px;
+        style: normal;
+        weight: 300;
+      };
+      line-height: normal;
+      margin: 0;
+      text-align: center;
+    }
+  }
+
+  &__circle {
+    border-radius: 50%;
+    filter: blur(185px);
+    position: absolute;
+    z-index: 1;
+
+    &--orange {
+      background-color: #F9E1D4;
+      height: 541px;
+      left: -250px;
+      width: 541px;
+    }
+
+    &--purple {
+      background-color: #DEDBF6;
+      height: 663px;
+      left: 36%;
+      top: -20px;
+      width: 663px;
+    }
+
+    &--green {
+      background-color: #D7EFED;
+      height: 661px;
+      right: -300px;
+      top: -240px;
+      width: 661px;
+    }
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .container {
+    &__main {
+      &__description {
+        &__title {
+          font-size: 48px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 382px) {
+  .container {
+    &__main {
+      &__description {
+        &__title {
+          font-size: 28px;
+        }
+      }
+    }
+  }
+}

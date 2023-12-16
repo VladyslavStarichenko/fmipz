@@ -1,5 +1,5 @@
 // Modules
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 
 // Components
 import Header from './Components/Header';
